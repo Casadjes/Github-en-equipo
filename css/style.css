@@ -20,5 +20,5 @@ body {
   background-color: rgb(73, 73, 73);
   cursor: pointer;
   border-radius: 0.75rem;
-  transition: all 1s;
+  transition: all 1s ease;
 }
