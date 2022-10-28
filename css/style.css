@@ -38,9 +38,10 @@ form {
   border-radius: 3px;
   color: #999;
   font-size: 0.8em;
-  padding: 20px;
+  padding: 15px;
   margin: 0 auto;
-  width: 300px;
+  width: 250px;
+  text-align: start;
 }
 
 input,
@@ -48,7 +49,7 @@ textarea {
   border: 0;
   outline: none;
 
-  width: 280px;
+  width: 200px;
 }
 
 .field {
@@ -63,7 +64,7 @@ textarea {
 }
 
 .center-content {
-  text-align: center;
+  text-align: start;
 }
 
 
@@ -99,6 +100,7 @@ nav a:hover {
 .encabezado-img {
   background-image: url("https://i.ibb.co/2jQN1jN/tesla-img.jpg");
   height: 500px;
+  min-width: 815px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -136,6 +138,20 @@ p {
   transform: translateY(-3px);
 }
 
+/* section 1 */
+.aside {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+form {
+  grid-column: 2 / 3;
+  border-left: #696969 1px solid;
+}
+
+
+/* Footer */
 footer {
   width: 100%;
   /* position: absolute; */
