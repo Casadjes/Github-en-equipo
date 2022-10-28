@@ -29,8 +29,8 @@ nav a {
   padding: 0px 20px;
 }
 
-<<<<<<< HEAD
-form{
+
+form {
   background-color: white;
   border-radius: 3px;
   color: #999;
@@ -40,50 +40,53 @@ form{
   width: 300px;
 }
 
-input, textarea{
+input,
+textarea {
   border: 0;
   outline: none;
 
   width: 280px;
 }
 
-.field{
+.field {
   border: solid 1px #ccc;
   padding: 10px;
 
-  
+
 }
 
-.field:focus{
+.field:focus {
   border-color: #18A383;
 }
 
-.center-content{
+.center-content {
   text-align: center;
 }
 
 
-.btn{
-	border-radius: 3px;
-	display: inline-block;
-	padding: 20px 15px;
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.btn-green{
-	color: white;
-	background-color: #3CC93F;
+.btn-green {
+  color: white;
+  background-color: #3CC93F;
 }
-.btn-green:hover{
-	background-color: #37B839;	
+
+.btn-green:hover {
+  background-color: #37B839;
 }
-.btn-green:active{
-	background-color: #29962A;
+
+.btn-green:active {
+  background-color: #29962A;
 }
-=======
-nav a:hover {
+
+=======nav a:hover {
   transform: translateY(-3px);
   background-color: rgb(80, 76, 76);
   border-radius: 30px;
@@ -129,4 +132,5 @@ p:hover {
   cursor: pointer;
   transform: translateY(-3px);
 }
->>>>>>> segunda
+
+>>>>>>>segunda
