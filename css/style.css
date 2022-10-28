@@ -168,7 +168,7 @@ footer {
   width: 50px;
   border-radius: 50px;
   border: 1px solid white;
-  background-image: url(/img/facebook.png);
+  background-image: url(../img/facebook.png);
   background-position: center;
   background-size: 40%;
   background-repeat: no-repeat;
@@ -180,15 +180,15 @@ footer {
 }
 
 .social-icon:nth-of-type(2) {
-  background-image: url(/img/insta.png);
+  background-image: url(../img/insta.png);
 }
 
 .social-icon:nth-of-type(3) {
-  background-image: url(/img/chrome.png);
+  background-image: url(../img/chrome.png);
 }
 
 .social-icon:nth-of-type(4) {
-  background-image: url(/img/twitter.png);
+  background-image: url(../img/twitter.png);
 }
 
 .footer-menu-container {
