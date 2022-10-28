@@ -1,65 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "roboto", sans-serif;
-  background-color: rgb(22, 22, 22);
-  height: 100vh;
-
+  font-family: "Open Sans";
 }
 
+header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 25px 0;
+}
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-.logo {
-  height: 50px;
-  padding: 10px;
+nav a {
+  text-decoration: none;
+  color: #696969;
+  transition: all 0.50s ease;
+}
+
+nav a:hover {
+  transform: translateY(-3px);
+  background-color: rgb(80, 76, 76);
   border-radius: 30px;
-  background-color: blueviolet;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-
+  color: white;
 }
 
-.logo ul,
-li {
+.encabezado-img {
+  background-image: url(/img/tesla-img.png);
+  height: 500px;
+  background-size: cover;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
-  color: white;
-  font-weight: 300;
+  color: #fff;
+  gap: 10px;
 }
 
-.text {
-  display: flex;
-  justify-content: start;
-  height: 50px;
-  position: absolute;
-  left: 85%;
+.encabezado-img p {
+  font-size: 20px;
+  background-color: #353333;
+  border-radius: 15px;
+  padding: 5px;
+  text-shadow: 2px 1px 0 gray;
 }
 
-.text h1 {
-  position: absolute;
-  color: white;
+.encabezado-img h1 {
+  color: rgb(182, 27, 27);
+  background-color: #696969;
+  border-radius: 30px;
+  font-size: 60px;
+  padding: 10px;
+  text-shadow: 3px 3px 0 rgb(102, 4, 4);
 }
 
-.logo img {
+.encabezado-img h1,
+p {
+  transition: all 0.50s ease;
+}
+
+.encabezado-img h1,
+p:hover {
   cursor: pointer;
-  transition: all 0.75s ease;
-}
-
-.logo img:hover {
-  transform: translateY(-10%);
-}
-
-.logo li:hover {
-  cursor: pointer;
-  background-color: red;
-  border-radius: 20%;
-  border-bottom: 1px solid black;
+  transform: translateY(-3px);
 }
